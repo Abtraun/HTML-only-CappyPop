@@ -364,8 +364,20 @@
 .bill-infor .bill-left{
     height: auto;
     width: 100%;
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
+}
+
+.bill-infor .bill-left .single-infor{
+    display: inline-block;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.bill-infor .bill-left .single-infor p{
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+    color: var(--primary-text-color);
 }
 
 .bill-infor .bill-left .btn{
