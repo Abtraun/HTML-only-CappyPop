@@ -382,6 +382,19 @@
 	transition:all 0.2s ease;
 }
 
+.cart-list .single-cart-list .cartlist-content .btn span{
+    font-size: 16px;
+    color: var(--orange-color);
+    -webkit-transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+	transition:all 0.2s ease;
+}
+
+.cart-list .single-cart-list .cartlist-content .btn:hover span{
+    font-size: 16px;
+    color: var(--white-color);
+}
+
 .cart-list .single-cart-list .cartlist-content .btn:hover{
     background-color: var(--red-color);
     color: var(--white-color);
