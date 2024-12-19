@@ -309,6 +309,11 @@
 
 }
 
+.cart-list .single-cart-list p{
+    font-family: "Montserrat", sans-serif;
+    color: var(--primary-text-color);
+}
+
 .cart-list .single-cart-list .cartlist-content{
     height: auto;
     width: 300px;
@@ -316,16 +321,11 @@
 
 .cart-list .single-cart-list .cartlist-content h5{
     font-family: "Paytone One", sans-serif;
-}
-
-.cart-list .single-cart-list .cartlist-content p{
-    font-family: "Montserrat", sans-serif;
-    color: var(--primary-text-color);
+    font-size: 16px;
 }
 
 .cart-list .single-cart-list .cartlist-content span{
     color: var(--light-orange-color);
-
 }
 
 .cart-list .single-cart-list .cartlist-content .btn{
@@ -334,6 +334,9 @@
     font-size: 20px;
     color: var(--red-color);
     background-color: var(--primary-bg-color);
+    -webkit-transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+	transition:all 0.2s ease;
 }
 
 .cart-list .single-cart-list .cartlist-content .btn:hover{
@@ -341,11 +344,60 @@
     color: var(--white-color);
 }
 
-
-
-
-
-
   /*==========================
 	End Cart Listing CSS
+============================*/
+
+  /*==========================
+	Start Bill Information CSS
+============================*/
+
+.bill-infor{
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    border-top: 1px solid var(--textfield-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.bill-infor .bill-left{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bill-infor .bill-left .btn{
+    background-color: var(--light-orange-color);
+    color: var(--white-color);
+    -webkit-transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+	transition:all 0.2s ease;
+}
+
+.bill-infor .bill-left .btn:hover{
+    background-color: var(--orange-color);
+    color: var(--white-color);
+}
+
+.bill-infor .bill-right{
+    height: auto;
+    width: 900px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.bill-infor .bill-right .single-bill-infor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bill-infor .bill-right .single-bill-infor p{
+    font-family: "Montserrat", sans-serif;
+    color: var(--primary-text-color);
+}
+
+  /*==========================
+	End Bill Information CSS
 ============================*/
