@@ -466,3 +466,20 @@
   /*==========================
 	End Bill Information CSS
 ============================*/
+
+  /*==========================
+	Start Choose Payment CSS
+============================*/
+
+.choose-payment{
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    border-top: 1px solid var(--textfield-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+  /*==========================
+	End Choose Payment CSS
+============================*/
