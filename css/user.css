@@ -17,13 +17,6 @@
   --red-color: #E95322;
   }
 
-*{
-  margin: 0;
-  padding: 0;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Paytone One", sans-serif;
-}
-
 .user-account {
   background-color: var(--primary-bg-color);
 }
@@ -33,13 +26,13 @@
 ============================*/
 
 .user-sidebar{
-    position: fixed;
-    top: 30px;
+    position: relative;
+    top: 0;
     left: 0;
-    height: 100%;
+    height: auto;
     width: 300px;
     border-radius: 24px;
-    background: var(--primary-bg-color);
+    background: none;
     z-index: 100;
     transition: all 0.5s ease;
   }
@@ -57,6 +50,7 @@
     line-height: 50px;
   }
   .user-sidebar .logo-details .logo_name{
+    font-family: "Paytone One", sans-serif;
     font-size: 30px;
     color: var(--orange-color);
     font-weight: 600;
@@ -64,6 +58,7 @@
     transition-delay: 0.1s;
   }
   .user-sidebar .logo-details .logo_name span2{
+    font-family: "Paytone One", sans-serif;
     color: var(--yellow-color);
     transition: 0.3s ease;
     transition-delay: 0.1s;
@@ -115,6 +110,7 @@
     text-decoration: none;
   }
   .user-sidebar .nav-links li a .link_name{
+    font-family: "Paytone One", sans-serif;
     font-size: 18px;
     color: var(--primary-text-color);
     transition: all 0.4s ease;
@@ -125,6 +121,7 @@
   }
   
   .user-sidebar .nav-links li .sub-menu{
+
     padding: 6px 6px 14px 80px;
     margin-top: -10px;
     background: none;
@@ -163,13 +160,12 @@
     transform: translateY(-50%);
   }
   .user-sidebar .profile-details{
-    position: fixed;
-    bottom: 0;
+    position: relative;
     width: 300px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background: var(--primary-bg-color);
+    justify-content: left;
+    background: none;
     padding: 12px 0;
     transition: all 0.5s ease;
   }
@@ -187,17 +183,31 @@
     transition: all 0.5s ease;
   }
   
-  .user-sidebar .profile-details .profile_name,
-  .user-sidebar .profile-details .job{
+  .user-sidebar .profile-details .profile_name{
+    font-family: "Paytone One", sans-serif;
     color: var(--primary-text-color);
     font-size: 18px;
     font-weight: 500;
-    white-space: nowrap;
   }
-  
   .user-sidebar .profile-details .job{
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
+    color: var(--primary-text-color);
+    white-space: nowrap;
+  }
+
+  .user-sidebar .btn{
+    width: auto;
+    margin: 30px 0 0 60px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .user-sidebar .btn i{
+    font-size: 20px;
+    margin-left: 10px;
+    color: var(--primary-text-color);
+
   }
   
   /*==========================
