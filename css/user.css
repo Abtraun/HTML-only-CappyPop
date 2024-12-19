@@ -391,11 +391,64 @@
 .bill-infor .bill-right .single-bill-infor{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.bill-infor .bill-right .single-bill-infor h6{
+    font-family: "Montserrat", sans-serif;
+    color: var(--primary-text-color);
+    font-weight: 600;
+    font-size: 14px;
 }
 
 .bill-infor .bill-right .single-bill-infor p{
     font-family: "Montserrat", sans-serif;
     color: var(--primary-text-color);
+}
+
+.bill-infor .bill-right .bill-total{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    border-top: 1px solid var(--textfield-color);
+}
+
+.bill-infor .bill-right .bill-button{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+.bill-infor .bill-right .bill-button .btn{
+    width: auto;
+    color: var(--white-color);
+    background-color: var(--light-orange-color);
+    padding: 10px 70px;
+    -webkit-transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+	transition:all 0.2s ease;
+
+}
+
+.bill-infor .bill-right .bill-button .btn:hover{
+    background-color: var(--orange-color);
+}
+
+.bill-infor .bill-right .bill-button .btn.primary{
+    width: auto;
+    color: var(--light-orange-color);
+    background-color: var(--white-color);
+    padding: 10px 50px;
+    -webkit-transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+	transition:all 0.2s ease;
+}
+
+.bill-infor .bill-right .bill-button .btn.primary:hover{
+    background-color: var(--light-yellow-color);
+    color: var(--white-color);
 }
 
   /*==========================
