@@ -218,7 +218,6 @@
   /*==========================
 	Start Home Section CSS
 ============================*/
-
   .home-section{
     position: relative;
     background-image: url("img/bg-image");
@@ -227,6 +226,7 @@
     background-repeat: no-repeat;
     overflow: visible;
     top: 0;
+    margin-left: 20px;
   }
   .home-title{
     margin: 20px 0 20px 0;
@@ -356,6 +356,7 @@
     height: auto;
     width: 100%;
     padding-top: 20px;
+    margin-bottom: 20px;
     border-top: 1px solid var(--textfield-color);
     display: flex;
     justify-content: space-between;
@@ -475,10 +476,33 @@
     height: auto;
     width: 100%;
     padding-top: 20px;
-    border-top: 1px solid var(--textfield-color);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
+
+.choose-payment img{
+    height: 60px;
+    width: auto;
+}
+
+.choose-payment .btn{
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
+    margin: 0 20px;
+    background-color: var(--white-color);
+    -webkit-transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+	transition:all 0.2s ease;
+}
+
+.choose-payment .btn:hover{
+    transform: translateY(-10px);
+
+}
+
 
   /*==========================
 	End Choose Payment CSS
