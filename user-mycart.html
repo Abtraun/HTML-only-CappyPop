@@ -240,33 +240,44 @@
 
           <!-- Start Cart Listing -->
 
-          <section class="h-100 h-custom">
-            <div class="container h-100 py-5">
-              <div class="row d-flex justify-content-center align-items-center h-100">
+          <section class="cart-list">
+            <div class="container">
+              <div class="row">
                 <div class="col">
           
                   <div class="table-responsive">
                     <table class="table">
+                    
                       <thead>
                         <tr>
-                            <th scope="col">Products</th>
+                            <th scope="col">Name</th>
                             <th scope="col">Price</th>
                             <th scope="col">Quantity</th>
                             <th scope="col">Total</th>
                           </tr>
                       </thead>
+
                       <tbody>
-                        <tr>
+
+                        <!-- Start Single Cart Listing -->
+
+                        <tr class="single-cart-list">
+                        
                           <th scope="row">
                             <div class="d-flex align-items-center">
-                              <img src="images/product/image3.png" class="img-fluid rounded-3"
-                                style="width: 120px;" alt="">
-                              <div class="flex-column ms-4">
-                                <p class="mb-2">Organic Cloth Product</p>
+                              <img src="img/boba-img/boba.png">
+                              <div class="cartlist-content">
+
+                                <h5>Mint Boba</h5>
+
+                                <p>Size: M</p>
+                                <p><span>Topping: Boba, cheese, cacao powder.</span></p>
+                                <p>39.000đ</p>
                                 
                               </div>
                             </div>
                           </th>
+
                           <td class="align-middle">
                             <p class="mb-0" style="font-weight: 500;">$12</p>
                           </td>
@@ -290,6 +301,8 @@
                             <p class="mb-0" style="font-weight: 500;">$29.99</p>
                           </td>
                         </tr>
+                        <!-- End Single Cart Listing -->
+
                         <tr>
                           <th scope="row" class="border-bottom-0">
                             <div class="d-flex align-items-center">
@@ -377,7 +390,7 @@
                 </div>
               </div>
             </div>
-            </section>
+        </section>
 
           <!-- End Cart Listing -->
 

@@ -221,17 +221,17 @@
   .home-section{
     position: relative;
     background-image: url("img/bg-image");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      overflow: visible;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: visible;
     top: 0;
   }
   .home-title{
     margin: 20px 0 20px 0;
     display: flex;
     padding-bottom: 20px;
-      border-bottom: 1px solid var(--textfield-color);
+    border-bottom: 1px solid var(--textfield-color);
   }
   .home-section .home-title h1{
     color: var(--primary-text-color);
@@ -267,16 +267,16 @@
       color:#fff;
   }
   
-  .detail-information .information-form .btn.primary {
-      display: inline-block;
-      margin-right: 10px;
-      line-height: 20px;
+.detail-information .information-form .btn.primary {
+    display: inline-block;
+     margin-right: 10px;
+    line-height: 20px;
     padding: 10px 40px;
-      width:auto;
-      background: #fff;
-      color: var(--light-orange-color);
+    width:auto;
+    background: #fff;
+    color: var(--light-orange-color);
   }
-  .detail-information .information-form  .btn.primary:hover{
+.detail-information .information-form  .btn.primary:hover{
       background: var(--light-yellow-color);
       color:#fff;
   }
@@ -284,4 +284,51 @@
   /*==========================
       End Detail Information CSS
   ============================*/
+
   
+  /*==========================
+	Start Cart Listing CSS
+============================*/
+
+.cart-list{
+    height: auto;
+}
+
+.cart-list .single-cart-list{
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-list .single-cart-list .cartlist-content{
+    height: auto;
+    width: 300px;
+}
+
+.cart-list .single-cart-list .cartlist-content h5{
+    font-family: "Paytone One", sans-serif;
+}
+
+.cart-list .single-cart-list .cartlist-content p{
+    font-family: "Montserrat", sans-serif;
+    color: var(--primary-text-color);
+}
+
+.cart-list .single-cart-list .cartlist-content span{
+    color: var(--light-orange-color);
+
+}
+
+.cart-list .single-cart-list img{
+    border-radius: 12px;
+    width: 120px;
+    margin-right: 20px;
+
+}
+
+
+
+
+  /*==========================
+	End Cart Listing CSS
+============================*/
