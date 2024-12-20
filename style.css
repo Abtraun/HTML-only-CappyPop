@@ -1782,6 +1782,7 @@ body{
 	background: #fff;
 	position: relative;
 	border-radius: 24px;
+	margin-bottom: 30px;
 	-webkit-transition: all 0.4s ease;
 	-moz-transition: all 0.4s ease;
 	transition: all 0.4s ease;
