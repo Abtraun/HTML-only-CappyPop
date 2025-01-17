@@ -387,6 +387,81 @@
 ============================*/
 
 /*==========================
+	Start Multiple Selection CSS
+============================*/
+
+/* Basic styles for the container */
+.detail-information .information-form .multi-select-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  max-width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Styling the label */
+.detail-information .information-form .multi-select-container h5 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Styling the select element */
+.detail-information .information-form .multi-select {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/* Styling for options */
+.detail-information .information-form .multi-select option {
+  padding: 10px;
+}
+
+/* Hover effect for options */
+.detail-information .information-form .multi-select option:hover {
+  background-color: #f0f0f0;
+}
+
+/* Style the selected items list */
+.detail-information .information-form .selected-items {
+  margin-top: 20px;
+}
+
+.detail-information .information-form .selected-items ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.detail-information .information-form .selected-items li {
+  background-color: #e0e0e0;
+  padding: 5px 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: inline-block;
+  color: #333;
+}
+
+.detail-information .information-form .selected-items li .remove-item {
+  margin-left: 10px;
+  color: #ff0000;
+  cursor: pointer;
+}
+
+/*==========================
+	End Multiple Selection CSS
+============================*/
+
+/*==========================
 	Start Search CSS
 ============================*/
 
